@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Bootstrap-Projekt</title>
+
+    <!-- Bootstrap-CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <!-- Besondere Stile für diese Vorlage -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body background="images/background.png">
+
+    <div style="background-image:url(images/background.png)" class="navbar-wrapper">
+      <div class="container">
+  
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Navigation ein-/ausblenden</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Bootstrap-Projekt</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Start</a></li>
+                <li class="active" class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Unsere Autos <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="audi.html">Audi</a></li>
+                    <li><a href="bmw.html">BMW</a></li>
+                    <li><a href="mercedes.html">Mercedes</a></li>
+                   <!-- <li class="divider"></li>
+                    <li class="dropdown-header">Nav-Überschrift</li>
+                    <li><a href="#">Abgetrennter Link</a></li>
+                    <li><a href="#">Noch ein abgetrennter Link</a></li>-->
+                  </ul>
+                </li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+     
+
+    <!-- Marketing-Botschaften und Präsentationsspalten
+    ================================================== -->
+    <!-- Der Rest der Seite wird in einem anderen Container verpackt, um den Inhalt schön zu zentrieren. -->
+
+    <div class="container marketing">
+   
+<!--
+      
+     
+     <div class="row">
+        <div class="col-lg-4">
+          <img  src="images/audia1.jpg" alt="Generisches Platzhalter-Bild" style="width: 250px; height: 150px;">
+          <h2>Überschssrift</h2>
+          <p>
+          	 Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, 			             porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+          </p>
+          <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg"> Mehr erfahren &raquo;  </button>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="meinGroßesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div></p>
+        </div> 
+        
+        <div class="col-lg-4">
+          <h2>Überschrift</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        
+        <div class="col-lg-4">
+          <h2>Überschrift</h2
+          ><p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>>--> <!-- /.col-lg-4 -->
+   
+     
+    
+
+
+      <!-- Präsentationsspalten -->
+      
+<div align="center">
+<video  autoplay height="450" width="900" src="audi.mp4"></video >
+</div>
+<hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 style="color:#FFFFFF" class="featurette-heading">Audi A1<span class="text-muted"> Eine große Idee. Kompakt gedacht.</span></h2>
+          <p style="color:#FFFFFF" class="lead">
+			Konzentrierter Ausdruck eines modernen Lebensgefühls. Individuell in den Möglichkeiten. Überzeugend in der Performance. Immer faszinierend. 		            Darüber hinaus ist der neue Audi A1 mit effizienten Technologien und modernen Kommunikationslösungen ausgestattet. Ein urbaner Performer, der             Lust auf mehr macht. Denn Größe hat viele Facetten.
+           </p> 
+         <button type="button" class="btn btn-primary-lg" data-toggle="modal" data-target="#meinModal">Mehr erfahren</button>
+           <div class="modal fade" id="meinModal" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel" aria-hidden="true">
+  				<div class="modal-dialog  ">
+    			<div class="modal-content" align="center">
+    				<p>
+                    	<h2>Audi A1</h2></p>
+     				<p>
+    			    <table class="table table-hover"  >
+  						<tbody>
+   							 <tr>
+                               <th scope="row">Produktionszeitraum:</th>
+                               <td>seit 05/2010</td>
+                             </tr>
+                            <tr>
+                              <th scope="row">Klasse:</th>
+                              <td>Kleinwagen</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Karosserieversionen:</th>
+                              <td>Kombilimousine</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Motoren:</th>
+                              <td>Ottomotoren: 1,0- 2,0 Liter (90-252 PS) </br> Dieselmotoren: 1,4–2,0 Liter(90–140 PS) </td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Länge:</th>
+                              <td>3954-3987 mm</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Breite:</th>
+                              <td>1740–1746 mm</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Höhe:</th>
+                              <td>1416–1422 mm</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Leergewicht:</th>
+                              <td>1115–1465 kg</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Vorgängermodell:</th>
+                              <td>keines</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Nachfolgemodell:</th>
+                              <td>keines</td>
+                            </tr>
+                          </tbody>
+					</table>
+					</p>
+      			</div>
+    		 </div>
+		  </div>
+        </div>  
+        <div class="col-md-5">
+          <img class="featurette-image" src="images/audia1.jpg" height="300px" width="400px" alt="AudiA1"/>
+        </div>
+      </div>
+
+
+
+<hr class="featurette-divider">
+
+
+      <div class="row featurette">
+      	<div class="col-md-5">
+          <img class="featurette-image" src="images/audia3.jpg" height="300px" width="400px" alt="AudiA3"/>     
+        </div>
+        <div class="col-md-7">
+          <h2 style="color:#FFFFFF" class="featurette-heading">Audi A3<span class="text-muted"> Weiter voraus.</span> </h2>
+          <p style="color:#FFFFFF" class="lead">
+           Wie wäre es, wenn Technologie intuitiv zu bedienen wäre? Wenn puristisches Design auf innovative Funktionalität treffen würde? Wenn       	           Sportlichkeit und Fortschritt eins würden? Wir haben die Antwort gefunden: mit dem Audi A3. Das Design spricht eine einzigartige Sprache, die            Dynamik beeindruckt auf jeder Fahrt. Und der Innenraum vereint Ästhetik mit intuitiver Funktionalität. Erleben Sie unseren Vorsprung in            Fahrzeugen, die weiter voraus sind.       
+           </p>
+		 <button type="button" class="btn btn-primary-lg" data-toggle="modal" data-target="#meinModal3">Mehr erfahren</button>
+           <div class="modal fade" id="meinModal3" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel" aria-hidden="true">
+  				<div class="modal-dialog  ">
+    				<div class="modal-content" align="center">
+    					<p>
+                        	<h2>Audi A3</h2>
+                        </p>
+    					<p>
+     						<table class="table table-hover" >
+                              <tbody>
+                                <tr>
+                                  <th scope="row">Produktionszeitraum:</th>
+                                  <td>seit 2012</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Klasse:</th>
+                                  <td>Kompaktklasse</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Karosserieversionen:</th>
+                                  <td>Kombilimousine, Limousine, Cabriolet</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Motoren:</th>
+                                  <td>Ottomotoren: 1,2- 2,0 Liter (103-296 PS) </br> Dieselmotoren: 1,6–2,0 Liter(103–181 PS) </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Länge:</th>
+                                  <td>4237–4469 mm</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Breite:</th>
+                                  <td>1777–1796 mm</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Höhe:</th>
+                                  <td>1392–1425 mm</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Leergewicht:</th>
+                                  <td>1225–1695 kg</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Vorgängermodell:</th>
+                                  <td>Audi A3 8P/8PA</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Nachfolgemodell:</th>
+                                  <td>keines</td>
+                                </tr>
+                              </tbody>
+                            </table>
+ 						</p>
+        			</div>
+      			</div>
+           </div>
+        </div>
+       </div>
+            
+
+<hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 style="color:#FFFFFF" class="featurette-heading">Audi S8<span class="text-muted"> Brillante Technik. Betont sportlich.</span></h2>
+          <p style="color:#FFFFFF" class="lead">
+           Einsteigen. Anschnallen. Motor starten. Wohin es auch geht, lassen Sie sich antreiben von faszinierender Dynamik. Denn Sie wissen, in Ihrem            Audi S8 stehen Ihnen alle Wege offen. Bestimmen Sie die Richtung. Die Gangart. Das Tempo. Und genießen Sie dabei die Freiheit, Reserven zu            haben. Genug, um aus jeder Strecke das Beste herauszuholen.</p>
+            <button type="button" class="btn btn-primary-lg" data-toggle="modal" data-target="#meinModal2">Mehr erfahren</button>
+           <div class="modal fade" id="meinModal2" tabindex="-1" role="dialog" aria-labelledby="meinModalLabel" aria-hidden="true">
+  				<div class="modal-dialog  ">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+    				<div class="modal-content" align="center">
+    					<p>
+                        	<h2>Audi S8</h2>
+                        </p>
+    					<p>
+     						<table class="table table-hover" >
+                              <tbody>
+                                <tr>
+                                  <th scope="row">Produktionszeitraum:</th>
+                                  <td>seit 1996</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Klasse:</th>
+                                  <td>Limousine</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Karosserieversionen:</th>
+                                  <td>Kombilimousine, Limousine, Cabriolet</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Motoren:</th>
+                                  <td>Ottomotor:
+5,2 Liter (443 PS) </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Länge:</th>
+                                  <td>5062 mm</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Breite:</th>
+                                  <td>1894 mm</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Höhe:</th>
+                                  <td>1424 mm</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Leergewicht:</th>
+                                  <td>1940 kg</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Vorgängermodell:</th>
+                                  <td>Audi RS </td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">Nachfolgemodell:</th>
+                                  <td>keines</td>
+                                </tr>
+                              </tbody>
+                            </table>
+ 						</p>
+        			</div>
+      			</div>
+           </div>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image  " src="images/audis8.jpg" height="300px" width="450px"  alt="AudiS8">
+        </div>
+      </div>
+
+     
+      
+
+      <!-- FOOTER -->
+            <hr class="featurette-divider">
+     </br>
+        <p class="pull-right"><a href="#">Zurück nach oben</a></p>
+         <div class="blog-footer"><p style="color:#FFFFFF">&copy; 2014 Taskaya &amp; Delil.  </p>
+      </div>
+     
+
+    </div><!-- /.container -->
+ </div> 
+
+    <!-- Bootstrap-JavaScript
+    ================================================== -->
+    <!-- Am Ende des Dokuments platziert, damit Seiten schneller laden -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+    <!-- IE10-Anzeigefenster-Hack für Fehler auf Surface und Desktop-Windows-8 -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
